@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CommonEditText">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="My_Date_Picker" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- DatePicker style android:Theme.Holo.Light-->
+
+        <!-- DatePicker dialog theme -->
+
+    </style>
+
+</resources>

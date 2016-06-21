@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/equipment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/equipment"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="@string/equipment"
+        android:textColor="@drawable/tab_text_selector"
+        android:textSize="@dimen/textsize_content_smallerr" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider" />
+
+    <TextView
+        android:id="@+id/outside"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/outside"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="@string/outside"
+        android:textColor="@drawable/tab_text_selector"
+        android:textSize="@dimen/textsize_content_smallerr" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider" />
+
+    <TextView
+        android:id="@+id/knowledge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/knowledge"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="@string/knowledge"
+        android:textColor="@drawable/tab_text_selector"
+        android:textSize="@dimen/textsize_content_smallerr" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider" />
+
+    <TextView
+        android:id="@+id/flea_market"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/flea_market"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="@string/flea_market"
+        android:textSize="@dimen/textsize_content_smallerr" />
+
+    <!--
+    <com.expandtab.view.ExpandTabView
+        android:id="@+id/expandtab_filter_view"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    -->
+
+</LinearLayout>

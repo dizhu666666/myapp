@@ -1,0 +1,56 @@
+<resources>
+<dimen name="crop__bar_height">56dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- custom dimen data -->
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="bottom_bar_height">48dp</dimen>
+    <dimen name="textsize_title">20sp</dimen>
+    <dimen name="textsize_big_content">18sp</dimen>
+    <dimen name="textsize_content">16sp</dimen>
+    <dimen name="textsize_content_smaller">15sp</dimen>
+    <dimen name="textsize_content_smallerr">14sp</dimen>
+     <dimen name="textsize_content_smalle_12sp">12sp</dimen>
+    <dimen name="textsize_content_smallest">10sp</dimen>
+    <dimen name="textsize_content_smallestt">8sp</dimen>
+    <dimen name="px20">20px</dimen>
+    <dimen name="px26">26px</dimen>
+    <dimen name="px8">8px</dimen>
+    <dimen name="sp10">10sp</dimen>
+
+    <!-- common dimen data -->
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+      <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_0.5">0.5dp</dimen>
+
+    <!--  -->
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="head_bar_height">45dp</dimen>
+
+    <!-- wx pay -->
+
+    <dimen name="LargeTextSize">16dp</dimen>
+    <dimen name="BasicTextSize">15dp</dimen>
+    <dimen name="TitleTextSize">18dp</dimen>
+    <dimen name="SmallTextSize">14dp</dimen>
+    <dimen name="SmallerTextSize">13dp</dimen>
+    <dimen name="LargestTextSize">30dp</dimen>
+    <dimen name="ChattingTextSize">16dp</dimen>
+    <dimen name="ChattingContentMinHeight">49dp</dimen>
+    <dimen name="PreferenceItemHeight">42dp</dimen>
+    <dimen name="ConversationItemHeight">58dp</dimen>
+    <dimen name="LargeAvatarSize">56dp</dimen>
+
+    <!-- for photos seclected -->
+
+    <dimen name="ui_10_dip">10dip</dimen>
+
+</resources>

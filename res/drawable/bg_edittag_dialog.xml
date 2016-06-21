@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 渐变 -->
+    <gradient
+        android:angle="45"
+        android:centerColor="@android:color/black"
+        android:centerX="0"
+        android:centerY="0"
+        android:endColor="@color/style_dialog_background_dark1"
+        android:gradientRadius="90"
+        android:startColor="@color/style_dialog_background_dark"
+        android:type="radial"
+        android:useLevel="true" />
+
+</shape>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- ViewPager是一个控件 -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_adv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_defaut_01" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/viewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/view_pager_adv"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <!-- Desc -->
+
+    <LinearLayout
+        android:id="@+id/textGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/viewGroup"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_5" >
+    </LinearLayout>
+
+</RelativeLayout>

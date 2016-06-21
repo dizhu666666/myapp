@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_8"
+    android:paddingRight="@dimen/dp_8" >
+
+    <ImageView
+        android:id="@+id/item_img_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_avatar" />
+
+    <ImageView
+        android:id="@+id/img_del_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_delete_forum_create_pic_p" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/label_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:drawableLeft="@drawable/label_tag"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableStart="@drawable/label_tag"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/label_production_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:drawableLeft="@drawable/label_tag"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableStart="@drawable/label_tag"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/label_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/label_tag"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableStart="@drawable/label_tag"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_tag_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_5"
+        android:contentDescription="@null"
+        android:src="@drawable/label_editor" />
+
+    <ImageView
+        android:layout_below="@id/item_img_section"
+        android:id="@+id/img_adding_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_add_pic_text_p" />
+
+</RelativeLayout>

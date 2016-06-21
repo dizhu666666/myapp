@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- tag edit,I don't user include,cause i'm tired -->
+
+    <LinearLayout
+        android:id="@+id/auto_textpart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_8" >
+
+        <AutoCompleteTextView
+            android:id="@+id/label_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:background="@color/background"
+            android:completionThreshold="1"
+            android:dropDownAnchor="@id/auto_textpart"
+            android:dropDownHeight="wrap_content"
+            android:dropDownSelector="@color/gray"
+            android:dropDownWidth="120dp"
+            android:ems="5"
+            android:hint="@string/intput_brand"
+            android:paddingBottom="@dimen/dp_8"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingStart="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_8" />
+
+        <TextView
+            android:id="@+id/label_edit_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="@dimen/dp_8"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@drawable/bg_tag_editor_transparent"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:text="@string/brand"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_content_smallerr" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/label_brand"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:background="@drawable/bg_editor_round_corner_selector"
+                android:gravity="center_vertical|start"
+                android:paddingLeft="@dimen/dp_8"
+                 android:paddingStart="@dimen/dp_8"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:textColor="@color/white"
+                 android:layout_marginRight="@dimen/dp_8"
+                android:textSize="@dimen/textsize_content_smallerr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@drawable/bg_tag_editor_transparent"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:text="@string/procuction_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_content_smallerr" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/label_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:paddingLeft="@dimen/dp_8"
+                 android:paddingStart="@dimen/dp_8"
+                android:background="@drawable/bg_editor_round_corner_selector"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:textColor="@color/white"
+                 android:layout_marginRight="@dimen/dp_8"
+                android:textSize="@dimen/textsize_content_smallerr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@drawable/bg_tag_editor_transparent"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:text="@string/custom_tag"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_content_smallerr" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/label_other"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:background="@drawable/bg_editor_round_corner_selector"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/dp_8"
+                 android:paddingStart="@dimen/dp_8"
+                 android:layout_marginRight="@dimen/dp_8"
+                android:textSize="@dimen/textsize_content_smallerr" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/edit_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_tag_editor_complete"
+        android:gravity="center"
+        android:padding="@dimen/dp_8"
+        android:text="@string/complete"
+        android:textSize="@dimen/textsize_title" />
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="user_flag">楼主</string>
+    <string name="level">LV%s</string>
+    <string name="reply_to">回复@%s</string>
+
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    <!-- public -->
+    <string name="network_error">网络异常</string>
+    <string name="error">错误</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="reply">回复</string>
+    <string name="upload_img_error">上传头像失败</string>
+    <string name="topic_top">置顶</string>
+    <string name="load_more_comment">点击查看更多评论</string>
+    <string name="not_filled_out">未填写</string>
+
+
+    <!-- 我的页面 -->
+    <string name="please_login">请登录</string>
+    <string name="my_topic">我的发言</string>
+    <string name="my_focus">我关注的人</string>
+    <string name="my_fans">我的粉丝</string>
+    <string name="system_setting">系统设置</string>
+    <string name="my_focus_label">我关注的标签</string>
+
+    <!-- 我的资料 -->
+    <string name="my_information">我的资料</string>
+    <string name="modify_nickname">修改昵称</string>
+    <string name="modify_signature">修改个性签名</string>
+    <string name="nickname_not_empty">昵称不能为空</string>
+    <string name="signature_not_empty">个性签名不能为空</string>
+    <string name="modify_error">修改失败</string>
+    <string name="icon">头像</string>
+    <string name="account_number">账号</string>
+    <string name="nickname">昵称</string>
+    <string name="signature">个性签名</string>
+    <string name="my_level">我的等级</string>
+    <string name="my_integral">我的积分</string>
+
+    <!-- 意见反馈页面 -->
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_hint">请输入您的宝贵意见，建议，我们将不断完善</string>
+    <string name="send">发送</string>
+    <string name="content_not_empty">输入的内容不能为空</string>
+    <string name="feedback_succeed">反馈成功</string>
+    <string name="feedback_error">反馈失败</string>
+
+    <!-- 登录页面 -->
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="phone_number">手机号码</string>
+    <string name="password">密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="mobile_registration">手机注册</string>
+    <string name="please_input_username">请输入用户名</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="third_party_login">第三方登录</string>
+    <string name="is_logged_in">正在登录</string>
+    <string name="login_error">登录失败</string>
+    <string name="wx_login">微信登录</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="xlwb_login">新浪微博登录</string>
+    <string name="please_input_right_phone">请输入正确的手机号码</string>
+
+    <!-- 注册页面 -->
+    <string name="register">注册</string>
+    <string name="phone_not_empty">手机号不能为空</string>
+    <string name="please_input_code">请输入验证码</string>
+    <string name="please_input_phone">请输入手机号码</string>
+    <string name="register_error">注册失败</string>
+    <string name="being_registered">正在注册</string>
+    <string name="complete">完成</string>
+
+    <!-- 找回密码页面 -->
+    <string name="find_password">找回密码</string>
+    <string name="please_waite">请稍后</string>
+
+    <!-- 重置密码页面 -->
+    <string name="reset_password">重置密码</string>
+
+    <!-- 系统设置页面 -->
+    <string name="logout_current_user">退出当前账号</string>
+    <string name="logout_error">退出登录失败</string>
+    <string name="logout_succeed">退出登录成功</string>
+
+
+    <!-- 帖子详情页面 -->
+    <string name="topic_details">帖子详情</string>
+    <string name="add_comment_succeed">添加评论成功</string>
+    <string name="add_focus_succeed">添加关注成功</string>
+    <string name="cancel_focus_succeed">取消关注成功</string>
+
+    <!-- 评论详情页面 -->
+    <string name="comment_details">评论详情</string>
+    <string name="say_something">说点什么吧...</string>
+    <string name="please_input_comment_content">请输入评论内容</string>
+
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <com.xiakee.xkxsns.ui.activity.MyTextView
+        android:id="@+id/tv_readers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_selector_normal_transparency"
+        android:contentDescription="@null"
+        android:drawableLeft="@drawable/readers"
+        android:drawablePadding="@dimen/dp_5"
+        android:drawableStart="@drawable/readers"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_defaut_01" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/divider" />
+
+    <com.xiakee.xkxsns.ui.activity.MyTextView
+        android:id="@+id/tv_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_selector_normal_transparency"
+        android:contentDescription="@null"
+        android:drawableLeft="@drawable/comment"
+        android:drawablePadding="@dimen/dp_5"
+        android:drawableStart="@drawable/comment"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_defaut_01" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/divider" />
+
+    <com.xiakee.xkxsns.ui.activity.MyTextView
+        android:id="@+id/tv_praise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_selector_normal_transparency"
+        android:contentDescription="@null"
+        android:drawableLeft="@drawable/topic_praise_selector"
+        android:drawablePadding="@dimen/dp_5"
+        android:drawableStart="@drawable/topic_praise_selector"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_defaut_01"
+        android:state_selected="false" />
+
+</LinearLayout>

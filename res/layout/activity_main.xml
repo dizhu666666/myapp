@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fm_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+    <!--
+    <com.xiakee.xkxsns.activity.CustomViewPager
+        android:id="@+id/fm_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:persistentDrawingCache="animation" >
+    </com.xiakee.xkxsns.activity.CustomViewPager>
+    -->
+
+    <include
+        android:id="@+id/view_bottom_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/view_bottom_tabs" />
+
+</LinearLayout>

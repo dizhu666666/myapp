@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_white"
+    android:orientation="horizontal" >
+
+    <com.xiakee.xkxsns.ui.activity.MyTextView
+        android:id="@+id/section_add_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/actionsheet_single_selector"
+        android:drawableLeft="@drawable/add_text"
+        android:drawablePadding="@dimen/dp_5"
+        android:drawableStart="@drawable/add_text"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:text="@string/text_selector" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/divider" />
+
+    <com.xiakee.xkxsns.ui.activity.MyTextView
+        android:id="@+id/section_add_pic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/actionsheet_single_selector"
+        android:drawableLeft="@drawable/add_pic"
+        android:drawablePadding="@dimen/dp_5"
+        android:drawableStart="@drawable/add_pic"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:text="@string/pic_selector" />
+
+</LinearLayout>

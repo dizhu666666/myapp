@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiakee.xkxsns.ui.view.TopicDetailsHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <include layout="@layout/topic_details_content" />
+
+    <include layout="@layout/topic_details_praise" />
+
+    <include layout="@layout/topic_details_label" />
+
+    <include layout="@layout/topic_details_good" />
+
+</com.xiakee.xkxsns.ui.view.TopicDetailsHeader>

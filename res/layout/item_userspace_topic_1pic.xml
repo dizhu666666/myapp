@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/user_info_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/bg_stroke_top1"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/textsize_content_smallerr" />
+
+    <ImageView
+        android:id="@+id/img_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/dp_5"
+        android:paddingEnd="@dimen/dp_2"
+        android:paddingLeft="@dimen/dp_2"
+        android:paddingRight="@dimen/dp_2"
+        android:paddingStart="@dimen/dp_2"
+        android:scaleType="fitXY"
+        android:src="@drawable/xiakee_small" />
+
+    <include
+        android:id="@+id/actions_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_5"
+        layout="@layout/view_topic_tips"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5" />
+
+</LinearLayout>

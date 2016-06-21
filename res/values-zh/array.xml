@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entrance_popwindow">
+        <item>回复我的</item>
+        <item>私信</item>
+        <item>客服</item>
+        <item>系统信息</item>
+    </string-array>
+
+</resources>

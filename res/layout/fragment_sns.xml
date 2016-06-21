@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <!--
+    <include
+        android:id="@+id/sns_banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6"
+        layout="@layout/view_banner" />
+
+    <include
+        android:id="@+id/view_topics_tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        layout="@layout/view_topics_tab" />
+    -->
+
+    <com.android.xlistview.XListView
+        android:id="@+id/sns_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_defaut_01"
+        android:divider="@null"
+        android:headerDividersEnabled="false" >
+    </com.android.xlistview.XListView>
+
+    <!--
+    <GridView
+        android:id="@+id/gridview_sort"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:horizontalSpacing="5dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/dp_5" >
+    </GridView>
+    -->
+
+</LinearLayout>

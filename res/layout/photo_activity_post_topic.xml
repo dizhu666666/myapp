@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/title_editor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:background="@drawable/bg_edittext"
+            android:gravity="start|top"
+            android:hint="@string/topic_title_hint"
+            android:lines="2"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/textsize_content" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/img_adding_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_add_pic_text_p" />
+
+        <TextView
+            android:id="@+id/title_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:paddingLeft="@dimen/dp_8"
+            android:paddingRight="@dimen/dp_8"
+            android:paddingStart="@dimen/dp_8"
+            android:text="@string/title_des"
+            android:textSize="@dimen/textsize_content_smallest" />
+
+        <ListView
+            android:id="@+id/post_editorlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:divider="@color/white"
+            android:dividerHeight="@dimen/dp_5"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:layout_marginStart="@dimen/dp_8"
+        android:background="@drawable/bg_rounded_gray"
+        android:gravity="center_vertical|start"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_2"
+        android:paddingEnd="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_8"
+        android:paddingTop="@dimen/dp_2" >
+
+        <TextView
+            android:id="@+id/loc_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:drawableLeft="@drawable/btn_location_near_post_n"
+            android:drawablePadding="@dimen/dp_8"
+            android:drawableStart="@drawable/btn_location_near_post_n"
+            android:text="@string/display_city"
+            android:textSize="@dimen/textsize_content_smallerr" />
+
+        <ImageView
+            android:id="@+id/disable_loc_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:src="@drawable/btn_close_lacation"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

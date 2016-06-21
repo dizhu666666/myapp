@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/white" />
+
+    <!-- 圆角 -->
+
+    <item
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp">
+        <shape>
+            <solid android:color="@color/white" />
+
+            <stroke
+                
+                android:width="@dimen/dp_5"
+                android:color="@color/background" />
+            <corners android:radius="@dimen/dp_10" />
+        </shape>
+    </item>
+    
+    <!-- stroke 这个设置divider用，嘿嘿 -->
+
+</layer-list>

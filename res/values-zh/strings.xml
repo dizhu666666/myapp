@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">遐客行</string>
+    <string name="back">返回</string>
+    <string name="xiakee_sns">社区</string>
+    <string name="discovery">发现</string>
+    <string name="market">商城</string>
+    <string name="my">我的</string>
+
+    <!-- sns view -->
+    <string name="equipment">晒装备</string>
+    <string name="outside">晒戶外</string>
+    <string name="knowledge">专业知识</string>
+    <string name="flea_market">跳骚</string>
+
+    <!-- for xlistview -->
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_end">没有更多数据</string>
+    <string name="xlistview_footer_hint_error">请检查网络</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- for edit topic -->
+    <string name="take_pic">拍照</string>
+    <string name="select_from_album">从相册选择</string>
+    <string name="preview">预览</string>
+    <string name="post">发布</string>
+    <string name="add_title">添加标题</string>
+    <string name="add_title_hint">请输入标题</string>
+    <string name="save_draft"> 是否保存草稿</string>
+    <string name="yes"> 是</string>
+    <string name="no">否</string>
+    <string name="post_scuuess">发布成功!</string>
+    <string name="post_failed">发布失败!\n 已保存到草稿箱!</string>
+     <string name="display_city">显示位置</string>
+     <string name="retry_loc"> 定位失败 点击重试</string>
+    
+
+    <!-- for photos multi selected -->
+
+
+    <!-- 图片浏览 -->
+    <string name="title_des"> 一个醒目标题能增加点击率哦</string>
+    <string name="content_hint">等你的一鸣惊人!</string>
+    <string name="topic_title_hint"> 【标题-不少于4个字】分享您的新鲜事儿</string>
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="text_selector">文字</string>
+    <string name="pic_selector">图片</string>
+
+    <!-- for tag edit -->
+    <string name="intput_brand">请输入品牌</string>
+     <string name="intput_production_name">请输入商品名</string>
+      <string name="intput_other">您自己的 态度</string>
+   
+    <string name="brand">品牌</string>
+    <string name="procuction_name">商品名</string>
+    <string name="custom_tag">其它</string>
+    
+
+    <!-- user space -->
+
+    <string name="follow">关注</string>
+    <string name="be_follow">粉丝</string>
+    <string name="topics">TA的帖子</string>
+    <string name="ta_reply">TA回复的</string>
+    <string name="praised">TA赞过的</string>
+
+    <!-- crop photo -->
+
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel">CANCEL</string>
+    <string name="cant_find_pictures">图片不存在</string>
+    <string name="sd_card_does_not_exist">sd卡不存在</string>
+
+    <string-array name="splash">
+        <item>@drawable/guider_01</item>
+        <item>@drawable/guider_02</item>
+        <item>@drawable/guider_03</item>
+        <item>@drawable/guider_04</item>
+    </string-array>
+    <!-- for uploading -->
+    
+     <string name="uploading">准备上传 </string>
+     <string name="compress_img">正在压缩图片</string>
+
+</resources>
